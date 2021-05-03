@@ -2,7 +2,7 @@ import React from 'react';
 import Form from '../../common/components/form';
 import { BreadCrumbs } from '../../common/components/display';
 import PropTypes from 'prop-types';
-import { detailPageStyle, detailPageGoBackLinkStyle } from './style';
+import { detailPageStyle } from './style';
 
 const DetailsComponent = props => {
     const { state: data } = props.location;
